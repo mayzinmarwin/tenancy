@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(43,200,145);
+    background: linear-gradient(114deg, rgba(43,200,145,1) 0%, rgba(31,167,119,1) 47%, rgba(18,99,71,1) 100%);
+}
+
+.container{
+    max-width: 430px;
+    width:100%;
+}
+
+.container .forms{
+    display: flex;
+    align-items: center;
+    width: 200%;
+}
+.container .form{
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.container .form .title{
+    font-size: 27px;
+    font-weight: 600;
+}
+.form .input-field{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input{
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+
+.form .text{
+    color: #333;
+    font-size: 14px;
+    border: none;
+}
+
+.form input.text{
+    color: #4070f4;
+    cursor: pointer;
+}
+.form input.text:hover{
+    text-decoration: underline;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #126347;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background-color: #126347;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
+}
